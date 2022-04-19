@@ -1,30 +1,32 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Описание папок и файлов
+/root уровень
+index.html - главная страница, в ней можно изменять только адреса которые ведут к другим подстраницам
+elements.html - страница описывающая как использовать стили цсс предоставленные шаблоном
+assets folder >
+содержит в себе главные файлы css,js,sass + шрифты их не надо менять
+images folder >
+содержит в себе картинки и логотип
+subpages folder >
+содержит в себе папки с подстраницами
 
+Задача следующая:
+1)Создать папку в папке subpages, назвать её "page_названиеСтраницы" (маленькимибуквами по английски, соблюдаем правила camelCase)
+2)Создать в ней файл "названиеСтраницы.html"
+3)Изучить elements.html
+4)используя их как пример создать вебстраницу которая будет использовать стили и теги описанные в elements.html. Как пример можете использовать файл generic.html находящийся в папке subpages
+Требования к странице:
+А)Новая страница должна обязательно иметь ту же шапку, меню и футер, что и index.html, чтобы она вписывалась в общий стиль вебсайта.
+Б)Добавить ссылку на вашу страницу в меню (id="menu") в файлы index.html, generic.html, elements.html
+В)В файле index.html есть 18 квадратов, при нажатии на них происходит переход на generic.html.
+Надо: Изменить текст в квадрате на название вашей подстраницы, добавить ссылку на неё, чтобы при нажатии на этот квадрат происходил переход на неё.
+Г)Если для вашей страницы необходимо добавить изображение, css или js файлы, вам необходимо:
+В случае с изображнием -> создать папку assets внутри папки вашей подстраницы и сохранить изображение туда.
+Все изображения должны быть в формате jpg(png слишком тяжелый).
+В случае с js или css файлом - создать файл внутри папки вашей страницы и назвать его
+"названиеСтраницыStyles.css" или "названиеСтраницы.js" (маленькимибуквами по английски, соблюдаем правила camelCase)
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Задание со звездочкой:
+1)Генератор плохих шуток -
+Добавить на вашу страницу кнопку которая будет иметь текст "1 нажатие = 1 шутка"
+При нажатии на кнопку в <p> теге под ней будет отображаться случайный dad joke из списка сохранённых шуток.
+При последующем нажатии кнопка обновляет шутку.
